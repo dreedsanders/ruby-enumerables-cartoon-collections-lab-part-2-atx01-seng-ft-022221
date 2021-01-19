@@ -22,7 +22,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!"]
-  planeteer_calls & valid_calls
+  planeteer_calls.intersection
 
   #find an element in planeteer_calls that is also in valid_calls
   
