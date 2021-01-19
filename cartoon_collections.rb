@@ -22,7 +22,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.include["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  planeteer_calls.include?["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
 
   #find an element in planeteer_calls that is also in valid_calls
   
